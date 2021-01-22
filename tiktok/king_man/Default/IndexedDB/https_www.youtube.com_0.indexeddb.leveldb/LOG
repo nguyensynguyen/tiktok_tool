@@ -1,0 +1,5 @@
+2020/12/18-05:37:24.968 23fc Reusing MANIFEST C:\Users\nhocc\OneDrive\Máy tính\tiktok\king_man\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/18-05:37:46.272 3464 Level-0 table #5: started
+2020/12/18-05:37:46.278 3464 Level-0 table #5: 1165 bytes OK
+2020/12/18-05:37:46.286 3464 Delete type=0 #3
+2020/12/18-05:37:46.286 3464 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

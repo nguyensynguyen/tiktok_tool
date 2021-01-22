@@ -1,0 +1,23 @@
+2021/01/17-13:28:54.861 2e9c Recovering log #78
+2021/01/17-13:28:54.861 2e9c Level-0 table #81: started
+2021/01/17-13:28:54.864 2e9c Level-0 table #81: 1146 bytes OK
+2021/01/17-13:28:54.874 2e9c Delete type=0 #78
+2021/01/17-13:28:54.874 2e9c Delete type=3 #74
+2021/01/17-13:30:26.446 2c54 Level-0 table #84: started
+2021/01/17-13:30:26.455 2c54 Level-0 table #84: 19909 bytes OK
+2021/01/17-13:30:26.459 2c54 Delete type=0 #82
+2021/01/17-13:31:57.183 328c Level-0 table #86: started
+2021/01/17-13:31:57.188 328c Level-0 table #86: 20118 bytes OK
+2021/01/17-13:31:57.190 328c Delete type=0 #83
+2021/01/17-13:31:57.191 23b0 Compacting 4@0 + 1@1 files
+2021/01/17-13:31:57.199 23b0 Generated table #87@0: 216 keys, 19805 bytes
+2021/01/17-13:31:57.199 23b0 Compacted 4@0 + 1@1 files => 19805 bytes
+2021/01/17-13:31:57.200 23b0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/17-13:31:57.202 23b0 Delete type=2 #77
+2021/01/17-13:31:57.202 23b0 Delete type=2 #79
+2021/01/17-13:31:57.202 23b0 Delete type=2 #81
+2021/01/17-13:31:57.202 23b0 Delete type=2 #84
+2021/01/17-13:31:57.202 23b0 Delete type=2 #86
+2021/01/17-13:33:41.158 2c54 Level-0 table #89: started
+2021/01/17-13:33:41.163 2c54 Level-0 table #89: 21180 bytes OK
+2021/01/17-13:33:41.165 2c54 Delete type=0 #85

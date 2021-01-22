@@ -1,0 +1,4 @@
+[1536:11092:0106/183820.597:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com/obj/rc-web-sdk-sg/acrawler.js (1)
+[1536:11092:0106/183821.707:INFO:CONSOLE(1)] "", source: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMDyddd2AQAAmrkyZyELjej7d-G78HvdjT3zmMOWfDhUo566s7kGxWEBx8jk&hTc6j8Njvn--z=q (1)
+[1536:11092:0106/183829.422:ERROR:device_event_log_impl.cc(211)] [18:38:29.421] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[1536:11092:0106/184110.435:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

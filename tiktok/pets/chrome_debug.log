@@ -1,0 +1,25 @@
+[6156:7728:0119/182224.411:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182224.934:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182224.965:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182224.997:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182226.571:ERROR:device_event_log_impl.cc(211)] [18:22:26.571] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6156:7728:0119/182649.944:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182651.214:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182651.231:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182651.245:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182651.258:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182652.496:INFO:CONSOLE(1)] "", source: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIAnTRp3AQAAfTRqZYUpRJlFOpUOATLFHy9b3tik7d9abwnwDFeE6rq1f0-E&hTc6j8Njvn--z=q (1)
+[6156:7728:0119/182708.001:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://www.tiktok.com/@gtnsx?lang=vi-VN (0)
+[6156:7728:0119/182708.864:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182709.475:INFO:CONSOLE(1)] "%c [object HTMLImageElement]", source: https://sf16-secsdk-sg.ibytedtos.com//obj/rc-web-sdk-sg/acrawler.js (1)
+[6156:7728:0119/182710.646:INFO:CONSOLE(0)] "Access to fetch at 'https://s16.tiktokcdn.com/musical/resource/mtact/static/fonts/Proxima-Nova-Bold.woff2' from origin 'https://www.tiktok.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.", source:  (0)
+[6156:7728:0119/182710.646:INFO:CONSOLE(0)] "The FetchEvent for "https://s16.tiktokcdn.com/musical/resource/mtact/static/fonts/Proxima-Nova-Bold.woff2" resulted in a network error response: the promise was rejected.", source:  (0)
+[6156:7728:0119/182710.647:INFO:CONSOLE(1)] "Uncaught (in promise) no-response: no-response :: [{"url":"https://s16.tiktokcdn.com/musical/resource/mtact/static/fonts/Proxima-Nova-Bold.woff2","error":{}}]", source: https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-strategies.prod.js (1)
+[6156:7728:0119/182710.803:INFO:CONSOLE(0)] "Access to fetch at 'https://s16.tiktokcdn.com/musical/resource/mtact/static/fonts/Proxima-Nova-Bold.woff' from origin 'https://www.tiktok.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.", source:  (0)
+[6156:7728:0119/182710.804:INFO:CONSOLE(0)] "The FetchEvent for "https://s16.tiktokcdn.com/musical/resource/mtact/static/fonts/Proxima-Nova-Bold.woff" resulted in a network error response: the promise was rejected.", source:  (0)
+[6156:7728:0119/182710.804:INFO:CONSOLE(1)] "Uncaught (in promise) no-response: no-response :: [{"url":"https://s16.tiktokcdn.com/musical/resource/mtact/static/fonts/Proxima-Nova-Bold.woff","error":{}}]", source: https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-strategies.prod.js (1)
+[6156:1156:0119/183651.331:WARNING:dns_config_service_win.cc(692)] Failed to read DnsConfig.
+[6156:9484:0119/183656.340:WARNING:dns_config_service_win.cc(692)] Failed to read DnsConfig.
+[6156:1156:0119/183714.664:WARNING:dns_config_service_win.cc(692)] Failed to read DnsConfig.
+[6156:12104:0119/183747.984:WARNING:dns_config_service_win.cc(692)] Failed to read DnsConfig.
+[6156:7728:0119/183757.572:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

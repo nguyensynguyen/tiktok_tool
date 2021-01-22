@@ -1,0 +1,13 @@
+2021/01/06-18:38:15.235 2304 Reusing MANIFEST C:\Users\nhocc\OneDrive\Máy tính\tool_tik\tiktok\am_thuc\Default\Local Storage\leveldb/MANIFEST-000001
+2021/01/06-18:38:15.236 2304 Recovering log #8
+2021/01/06-18:38:15.237 2304 Level-0 table #11: started
+2021/01/06-18:38:15.243 2304 Level-0 table #11: 23472 bytes OK
+2021/01/06-18:38:15.251 2304 Delete type=0 #8
+2021/01/06-18:38:15.251 458 Compacting 4@0 + 0@1 files
+2021/01/06-18:38:15.263 458 Generated table #13@0: 36 keys, 122441 bytes
+2021/01/06-18:38:15.263 458 Compacted 4@0 + 0@1 files => 122441 bytes
+2021/01/06-18:38:15.266 458 compacted to: files[ 0 1 0 0 0 0 0 ]
+2021/01/06-18:38:15.267 458 Delete type=2 #3
+2021/01/06-18:38:15.267 458 Delete type=2 #6
+2021/01/06-18:38:15.267 458 Delete type=2 #9
+2021/01/06-18:38:15.267 458 Delete type=2 #11

@@ -1,0 +1,5 @@
+2020/12/27-10:28:18.798 22dc Reusing MANIFEST C:\Users\nhocc\OneDrive\Máy tính\tool_tik\tiktok\nguyen_ns\Default\IndexedDB\https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/27-10:28:42.643 2494 Level-0 table #5: started
+2020/12/27-10:28:42.646 2494 Level-0 table #5: 3507 bytes OK
+2020/12/27-10:28:42.648 2494 Delete type=0 #3
+2020/12/27-10:28:42.648 2494 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
