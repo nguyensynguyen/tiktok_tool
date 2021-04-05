@@ -8,6 +8,7 @@ from time import sleep
 from multiprocessing import Pool
 from datetime import datetime
 import keyboard
+import io
 class InstagramBot():
     def khoitao(self,filePath):
         chrome_options = webdriver.ChromeOptions()
@@ -108,7 +109,7 @@ class InstagramBot():
         self.driver = self.khoitao(filePath)
         self.driver.get('https://tiktokfull.com/')
         save_list_link=open('save_link_douyin.txt','w')
-        list_link=open('link_douyin.txt','r',encoding="utf8")
+        list_link=open('link_douyin.txt','r',encoding="utf-8")
         read = list_link.readlines()
         # print(read)
         for getItem in read:
@@ -123,15 +124,70 @@ class InstagramBot():
         read_link_video_convert = save_list_link.readlines()
         for getItem in read_link_video_convert:
             print(getItem)
+            sleep(2)
             self.driver.find_elements_by_css_selector('#input-url')[0].send_keys(getItem)
+            sleep(2)
             self.driver.find_elements_by_css_selector('#input-url')[0].click()
-            sleep(5)
+            sleep(8)
             self.driver.find_elements_by_css_selector('.pb-2 a')[0].click()
             sleep(3)
             keyboard.press_and_release('f5')
             sleep(3)
         list_link.close()
+        save_list_link.close()
+
+    def get_link_video_download_douyin_snaptik(self,filePath):
+        self.driver = self.khoitao(filePath)
+        self.driver.get('https://snaptik.app/vn')
+        save_list_link=open('save_link_douyin.txt','w')
+        list_link=open('link_douyin.txt','r',encoding="utf8")
+        read = list_link.readlines()
+        # print(read)
+        for getItem in read:
+            for item in getItem.split(sep=' '):
+                # item.split(sep = ' ')
+                if (item.__contains__('http')):
+                    save_list_link.write(item +"\n")
+                else:
+                    continue
+
+        save_list_link=open('save_link_douyin.txt','r')
+        read_link_video_convert = save_list_link.readlines()
+
+        for getItem in read_link_video_convert:
+            print(getItem)
+            self.driver.find_elements_by_css_selector('.input-group .form-control')[0].send_keys(getItem)
+            self.driver.find_elements_by_css_selector('#icondl')[0].click()
+            sleep(5)
+            self.driver.find_elements_by_css_selector('.mb-0 a')[0].click()
+            sleep(3)
+            keyboard.press_and_release('f5')
+            sleep(3)
+        list_link.close()
         save_list_link.close()    
+
+    def t1(self,filePath):
+        self.driver = self.khoitao(filePath)
+        self.driver.get('https://tiktok.com/')
+        input("gb")
+    def t2(self,filePath):
+        self.driver = self.khoitao(filePath)
+        self.driver.get('https://tiktok.com/')
+        input("gb")
+    def t3(self,filePath):
+        self.driver = self.khoitao(filePath)
+        self.driver.get('https://tiktok.com/')
+        input("gb")
+    def t4(self,filePath):
+        self.driver = self.khoitao(filePath)
+        self.driver.get('https://tiktok.com/')
+        input("gb")
+    def t5(self,filePath):
+        self.driver = self.khoitao(filePath)
+        self.driver.get('https://tiktok.com/')
+        input("gb")
+
+
 
 
     def auto(self):
@@ -144,6 +200,13 @@ class InstagramBot():
         # self.instagram_follow_init("pets")
         # self.get_link_video_download('ngb')
         self.get_link_video_download_douyin('n')
+    
+        # self.get_link_video_download_douyin_snaptik('n')
+        # self.t1('n1')
+        # self.t2('n2')
+        # self.t3('n3')
+        # self.t4('n4')
+        # self.t5('n5')
 bot=InstagramBot()
 bot.auto()
 
